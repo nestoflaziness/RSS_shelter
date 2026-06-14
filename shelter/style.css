@@ -564,7 +564,8 @@ h3.title {
 
 /* PETS PAGE */
 
-.header.pets {
+.header.pets,
+.pets .header__inner {
   position: static;
 }
 
