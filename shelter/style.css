@@ -179,7 +179,8 @@ section:not(.not-only):nth-of-type(2n + 1) {
   color: #fafafa;
 }
 
-.burger-line {
+.burger {
+  display: none;
 }
 
 /* not-only section */
@@ -214,7 +215,7 @@ section:not(.not-only):nth-of-type(2n + 1) {
 .not-only h2 {
   font-size: 44px;
   color: var(--white-color);
-  /* letter-spacing: 0; */
+  letter-spacing: 0;
   width: 80%;
   display: flex;
   flex-direction: column;
